@@ -1,0 +1,12 @@
+/* CSS declarations go here */
+.customername {
+
+	border-radius:1px;
+	padding: 1px;
+	border-color: :'black';
+	color: 'red';
+	}
+
+.details{
+	font-size : 30px
+	}
