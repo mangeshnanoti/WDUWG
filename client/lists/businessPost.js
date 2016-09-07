@@ -8,11 +8,12 @@ Template.businessPost.events({
 	'click #dec' : function(e)
 	{
 		Businesses.update({_id:this._id}, {$inc:{count_total:-1}});
+
 	},
 
 	'click #det' : function(e)
 	{
-		Router.go('details');
+		Router.go('businessPost', {_id:this._id});
 	}
 })
 
